@@ -1,4 +1,4 @@
-## Propsa [(Free version)](https://prospa-frontend.vercel.app/)
+## Propsa [(Live version)](https://prospa-frontend-one.vercel.app/)
 
 
 > Free React Admin Dashboard made with Material-UI components and React.
@@ -8,12 +8,12 @@
 
 ## Page demo
 
-- [Dashboard](https://prospa-frontend.vercel.app/dashboard/app)
-- [Product](https://prospa-frontend.vercel.app/dashboard/products)
-- [Blog](https://prospa-frontend.vercel.app/dashboard/blog)
-- [Login](https://prospa-frontend.vercel.app/login)
-- [Register](https://prospa-frontend.vercel.app/register)
-- [Not Found](https://prospa-frontend.vercel.app/404)
+- [Dashboard](https://prospa-frontend-one.vercel.app/dashboard/app)
+- [Product](https://prospa-frontend-one.vercel.app/dashboard/products)
+- [Blog](https://prospa-frontend-one.vercel.app/dashboard/blog)
+- [Login](https://prospa-frontend-one.vercel.app/login)
+- [Register](https://prospa-frontend-one.vercel.app/register)
+- [Not Found](https://prospa-frontend-one.vercel.app/404)
 
 ## Getting started
 

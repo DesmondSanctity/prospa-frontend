@@ -38,7 +38,7 @@ export default function ControlledAccordions() {
     },
     validationSchema: RegisterSchema,
     onSubmit: () => {
-      navigate('/dashboard', { replace: true });
+      navigate('/dashboard/app', { replace: true });
     }
   });
 

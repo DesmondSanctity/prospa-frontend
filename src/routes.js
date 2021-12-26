@@ -33,7 +33,7 @@ export default function Router() {
         { path: 'register', element: <Register /> },
         { path: 'register-final', element: <RegisterFinal /> },
         { path: '404', element: <NotFound /> },
-        { path: '/', element: <Navigate to="/dashboard/app" /> },
+        { path: '/', element: <Navigate to="/register" /> },
         { path: '*', element: <Navigate to="/404" /> }
       ]
     },
