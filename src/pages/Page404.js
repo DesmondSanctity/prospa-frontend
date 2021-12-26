@@ -21,7 +21,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Page404() {
   return (
-    <RootStyle title="404 Page Not Found | Prospa">
+    <RootStyle title="404 | Prospa">
       <Container>
         <MotionContainer initial="initial" open>
           <Box sx={{ maxWidth: 480, margin: 'auto', textAlign: 'center' }}>
