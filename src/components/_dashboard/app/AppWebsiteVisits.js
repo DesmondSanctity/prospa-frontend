@@ -1,7 +1,7 @@
 import { merge } from 'lodash';
 import ReactApexChart from 'react-apexcharts';
 // material
-import { Card, CardHeader, Box } from '@mui/material';
+import { Card, CardHeader, Box, Grid } from '@mui/material';
 //
 import { BaseOptionChart } from '../../charts';
 
@@ -50,7 +50,7 @@ export default function AppWebsiteVisits() {
       y: {
         formatter: (y) => {
           if (typeof y !== 'undefined') {
-            return `${y.toFixed(0)} visits`;
+            return `${y.toFixed(0)} sales`;
           }
           return y;
         }
@@ -60,8 +60,58 @@ export default function AppWebsiteVisits() {
 
   return (
     <Card>
-      <CardHeader title="Website Visits" subheader="(+43%) than last year" />
+      <CardHeader title="June Summary" />
       <Box sx={{ p: 3, pb: 1 }} dir="ltr">
+        <Grid container spacing={0.5}>
+          <Grid item xs={4}>
+            <Box sx={{ color: 'text.secondary', textTransform: 'capitalize', fontWeight: 'medium' }}>
+              Money in
+            </Box>
+            <Box
+              sx={{
+                color: 'text.primary',
+                fontSize: 16,
+                fontWeight: 'bold',
+                mb: 2,
+                textTransform: 'uppercase'
+              }}
+            >
+              N5,650,000
+            </Box>
+          </Grid>
+          <Grid item xs={4}>
+          <Box sx={{ color: 'text.secondary', textTransform: 'capitalize', fontWeight: 'medium' }}>
+              Money out
+            </Box>
+            <Box
+              sx={{
+                color: 'text.primary',
+                fontSize: 16,
+                fontWeight: 'bold',
+                mb: 2,
+                textTransform: 'uppercase'
+              }}
+            >
+              N5,650,000
+            </Box>
+          </Grid>
+          <Grid item xs={4}>
+          <Box sx={{ color: 'text.secondary', textTransform: 'capitalize', fontWeight: 'medium' }}>
+              Difference
+            </Box>
+            <Box
+              sx={{
+                color: 'text.primary',
+                fontSize: 16,
+                fontWeight: 'bold',
+                mb: 2,
+                textTransform: 'uppercase'
+              }}
+            >
+              N5,650,000
+            </Box>
+          </Grid>
+        </Grid>
         <ReactApexChart type="line" series={CHART_DATA} options={chartOptions} height={364} />
       </Box>
     </Card>
