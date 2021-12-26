@@ -78,7 +78,7 @@ export default function RegisterForm() {
             helperText={touched.lastName && errors.lastName}
           />
 
-          <Grid container spacing={0.5}>
+          <Grid container spacing={0.6}>
             <Grid item xs={3}>
             <TextField
                     select

@@ -42,17 +42,17 @@ const MENU_OPTIONS = [
   {
     label: 'Business name 2',
     icon: homeFill,
-    linkTo: '/'
+    linkTo: '#'
   },
   {
     label: 'Business name 3',
     icon: homeFill,
-    linkTo: '/'
+    linkTo: '#'
   },
   {
     label: 'Business name 4',
     icon: homeFill,
-    linkTo: '/'
+    linkTo: '#'
   }
 ];
 
