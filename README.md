@@ -8,12 +8,12 @@
 
 ## Page demo
 
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Blog](https://minimal-kit-react.vercel.app/dashboard/blog)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
+- [Dashboard](https://prospa-frontend.vercel.app/dashboard/app)
+- [Product](https://prospa-frontend.vercel.app/dashboard/products)
+- [Blog](https://prospa-frontend.vercel.app/dashboard/blog)
+- [Login](https://prospa-frontend.vercel.app/login)
+- [Register](https://prospa-frontend.vercel.app/register)
+- [Not Found](https://prospa-frontend.vercel.app/404)
 
 ## Getting started
 
